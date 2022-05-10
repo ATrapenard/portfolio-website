@@ -1,9 +1,37 @@
 import React from 'react'
 import './portfolio.css'
 
+const data = [
+  {
+    id: 1,
+    title: 'This Website Stands as My Only Completed Project So Far',
+    github: 'https://github.com/ATrapenard/portfolio-website'
+  }
+]
 const Portfolio = () => {
   return (
-    <section id='portfolio'>Portfolio</section>
+    <section id='portfolio'>
+      <h5>My Recent Work</h5>
+      <h2>Portfolio</h2>
+      <div className="container portfolio__container">
+        {
+          data.map(({id, title, github}) => {
+            return (
+              <article key ={id} className='portfolio__item'>
+                <div className="portfolio__item-image">
+                  <img src='' alt={title} />
+                </div>
+                <h3>{title}</h3>
+                <h5>Check out the Github site for more information on the process</h5>
+                <div className ='portfolio__item-cta'>
+                  <a href={github} className='btn' target='_blank'>Github</a>
+                </div>
+              </article>
+            )
+          })
+        }
+      </div>
+    </section>
   )
 }
 
