@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import ME from "../../assets/me.jpg.png";
+import ME from "../../assets/pfp3.jpg";
 import { RiAwardFill } from "react-icons/ri";
 import { AiFillFolder } from "react-icons/ai";
 import { FaPeopleCarry } from "react-icons/fa";
