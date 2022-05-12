@@ -1,8 +1,5 @@
 .container.contact__container{
-    width: 58%;
-    display: grid;
-    grid-template-columns: 30% 58%;
-    gap: 12%;
+    display: flex;
 }
 
 .contact__options{
@@ -56,10 +53,23 @@ input, textarea{
     color: var(--color-white);
 }
 
+.contact__form{
+    width: 60%;
+    padding-left: 6%;
+}
+
+.contact__form textarea{
+    height: 300px;
+}
+
 @media screen and (max-width: 1024px){
     .container.contact__container{
-        grid-template-columns: 1fr;
+        flex-direction: column;
         gap: 2rem;
+    }
+    .contact__form{
+        padding-left:0%;
+        width: auto;
     }
 }
 

@@ -48,6 +48,8 @@ const Contact = () => {
             <h5>Shoot me A Text</h5>
             <small>(310)-408-5105</small>
           </article>
+        </div>
+        <div className="contact__form">
           <form ref={form} onSubmit={sendEmail}>
             <input
               type="text"

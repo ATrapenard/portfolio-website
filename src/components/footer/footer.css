@@ -48,7 +48,7 @@ footer a{
 }
 
 .cooter__copyright{
-    margin-bottom: 4rem;
+    padding-bottom: 1rem;
     color: var(--color-bg);
 }
 
