@@ -1,9 +1,10 @@
 import React from "react";
 import "./about.css";
-import ME from "../../assets/pfp3.jpg";
+import COGS from "../../assets/ucsdcogsci2.jpg";
 import { RiAwardFill } from "react-icons/ri";
 import { AiFillFolder } from "react-icons/ai";
 import { FaPeopleCarry } from "react-icons/fa";
+import { MdCastForEducation } from "react-icons/md";
 
 const About = () => {
   return (
@@ -14,11 +15,19 @@ const About = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={ME} alt="About" />
+            <img src={COGS} alt="education" />
           </div>
         </div>
         <div className="about__content">
           <div className="about__cards">
+            <article className="about__card">
+              <MdCastForEducation className="about__icon" />
+              <h5>Education</h5>
+              <small>
+                Pursuing a Bachelor's Degree in Cognitive Science with a
+                specialization in Machine Learning and Neural Computation
+              </small>
+            </article>
             <article className="about__card">
               <RiAwardFill className="about__icon" />
               <h5>Experience</h5>

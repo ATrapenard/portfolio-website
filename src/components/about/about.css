@@ -3,12 +3,10 @@
     grid-template-columns: 35% 50%;
     gap: 15%;
 }
-
 .about__me{
     width: 100%;
     aspect-ratio: 1/1;
     border-radius: 2rem;
-    background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
     display: grid;
     place-items: center;
 }
@@ -17,16 +15,7 @@
     display: inline-block;
     border-radius: 2rem;
     overflow: hidden;
-    transform: rotate(10deg);
-    transition: var(--transition);
-    width: 90%;
-    height: 103%;
 }
-
-.about__me-image:hover{
-    transform: rotate(0);
-}
-
 .about__cards{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -34,7 +23,7 @@
 }
 
 .about__card{
-    background: var(--color-bg-variant);
+    background: var(--color-primary);
     border: 1px solid transparent;
     border-radius: 1rem;
     padding: 2rem;
@@ -49,23 +38,32 @@
 }
 
 .about__icon{
-    color: var(--color-primary);
+    color: var(--color-light);
     font-size: 1.4rem;
     margin-bottom: 1rem;
 }
 
 .about__card h5 {
     font-size: 0.95rem;
+    color: var(--color-bg)
 }
 
 .about__card small {
     font-size: 0.7rem;
-    color: var(--color-light);
+    color: var(--color-bg-variant);
 }
 
 .about__content p{
     margin: 2rem 0 2.6rem;
     color: var(--color-light);
+}
+
+.about__card a{
+    color: var(--color-bg-variant);
+}
+
+.about__card a:hover{
+    color: var(--color-primary)
 }
 
 /* ================== MEDIA QUERIES ================*/
