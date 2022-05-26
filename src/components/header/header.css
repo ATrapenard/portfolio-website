@@ -31,6 +31,10 @@ header {
   justify-content: center;
 }
 
+.btn {
+  margin-top: auto;
+}
+
 /* ================ Header Socials ==============*/
 
 .header__socials {
