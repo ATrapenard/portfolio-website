@@ -22,25 +22,31 @@ const About = () => {
           <div className="about__cards">
             <article className="about__card">
               <MdCastForEducation className="about__icon" />
-              <h5>Education</h5>
+              <h5>-Education-</h5>
+              <h4>University of California, San Diego</h4>
+              <h4>Class of 2023</h4>
               <small>
-                Pursuing a Bachelor's Degree in Cognitive Science with a
-                specialization in Machine Learning and Neural Computation
+                Bachelor's Degree in Cognitive Science with a spacialization in
+                Machine Learning and Neural Computation
               </small>
             </article>
             <article className="about__card">
               <RiAwardFill className="about__icon" />
-              <h5>Experience</h5>
+              <h5>-Experience-</h5>
               <small>2+ Years Learning/Creating</small>
+              <div className="about__experience-list">
+                <p>Small to Medium JS/React Applications</p>
+                <p>Data Visualization/Manipulation in Python</p>
+              </div>
             </article>
             <article className="about__card">
               <FaPeopleCarry className="about__icon" />
-              <h5>Clients</h5>
+              <h5>-Clients-</h5>
               <small>Must Always Start Somewhere</small>
             </article>
             <article className="about__card">
               <AiFillFolder className="about__icon" />
-              <h5>Projects</h5>
+              <h5>-Projects-</h5>
               <small>
                 <a href="https://github.com/ATrapenard">
                   Check Out My Github For a List of All My Projects
@@ -48,12 +54,6 @@ const About = () => {
               </small>
             </article>
           </div>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo
-            similique deleniti neque, quis voluptate minima? Pariatur deserunt
-            obcaecati ex praesentium, odio corporis autem aspernatur quod a
-            ipsum accusantium ullam eos?
-          </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk
           </a>
