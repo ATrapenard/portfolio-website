@@ -14,11 +14,13 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 2rem;
 }
 
 .header__bio-content {
-  padding-top: 10rem;
+  /* padding-top: 10rem; */
   width: 50%;
+  margin-left: 0.5rem;
 }
 
 /* ======================= CTA ======================= */
@@ -52,11 +54,11 @@ header {
 /*=====================IMAGE=================*/
 
 .me {
-  width: 40rem;
-  height: 32rem;
-  padding-left: 1rem;
-  padding-top: 10rem;
-  padding-right: 3rem;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  height: 30rem;
+  margin-right: 0.5rem;
 }
 
 .me img {
