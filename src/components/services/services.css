@@ -26,7 +26,7 @@
 
 .service__list {
   padding: 2rem;
-  color: var(--color-primary);
+  color: var(--color-primary-variant);
 }
 
 .service__list li {

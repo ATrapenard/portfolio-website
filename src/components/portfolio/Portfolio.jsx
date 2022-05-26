@@ -4,7 +4,7 @@ import "./portfolio.css";
 const data = [
   {
     id: 1,
-    title: "This Website Stands as My Only Completed Project So Far",
+    title: "This Website",
     github: "https://github.com/ATrapenard/portfolio-website",
   },
 ];
@@ -17,8 +17,7 @@ const Portfolio = () => {
         {data.map(({ id, title, github }) => {
           return (
             <article key={id} className="portfolio__item">
-              <div className="portfolio__item-image">
-              </div>
+              <div className="portfolio__item-image"></div>
               <h3>{title}</h3>
               <h5>
                 Check out the Github site for more information on the process
