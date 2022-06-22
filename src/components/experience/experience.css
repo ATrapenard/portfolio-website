@@ -36,6 +36,10 @@
   gap: 1rem;
 }
 
+.experience__details small {
+  color: var(--color-primary-variant);
+}
+
 .experience__details-icon {
   margin-top: 6px;
   color: var(--color-primary);
