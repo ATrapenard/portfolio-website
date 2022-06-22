@@ -57,6 +57,10 @@ textarea {
   color: var(--color-white);
 }
 
+::placeholder {
+  color: white;
+}
+
 .contact__form {
   width: 60%;
   padding-left: 6%;
