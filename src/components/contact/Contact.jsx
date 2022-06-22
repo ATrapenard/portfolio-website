@@ -45,7 +45,7 @@ const Contact = () => {
           <article className="contact__option">
             <BsFillChatTextFill className="contact__option-icon" />
             <h4>Text</h4>
-            <h5>Shoot me A Text</h5>
+            <h5>Shoot Me a Text</h5>
             <small>(310)-408-5105</small>
           </article>
         </div>
