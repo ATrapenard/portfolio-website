@@ -15,11 +15,14 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <FiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Creating user friendly and accessible interface elements.</p>
             </li>
             <li>
               <FiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>
+                Skilled in providing design based on predicting user necessity
+                for the anticipated product.
+              </p>
             </li>
           </ul>
         </article>
@@ -30,11 +33,17 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <FiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+              <p>
+                Skilled in creating responsive Frontend designs that correlate
+                with UI/UX needs.
+              </p>
             </li>
             <li>
               <FiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <p>
+                Studying the process of creating data management systems for
+                Backend Design.
+              </p>
             </li>
           </ul>
         </article>
